@@ -56,6 +56,7 @@ public class Homework {
         Thread.sleep(2000);
         pageLogin.button();
         System.out.println("Привет");
+        System.out.println("хэллоу");
     }
     @AfterEach
     void tearDown() {
