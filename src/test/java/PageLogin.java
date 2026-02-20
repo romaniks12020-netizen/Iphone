@@ -19,7 +19,6 @@ public class PageLogin {
     By city = By.xpath("//*[@id=\"city\"]");
     By last = By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/main/div[2]/div/div/div[2]/form/button");
     WebDriver webDriver;
-
     public PageLogin(WebDriver webDriver) {
         this.webDriver = webDriver;
     }
@@ -77,5 +76,6 @@ public class PageLogin {
         WebElement driver = webDriver.findElement(last);
         driver.click();
     }
+
 
 }
