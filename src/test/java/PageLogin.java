@@ -13,7 +13,7 @@ public class PageLogin {
     By date = By.xpath("//*[@id=\"dateOfBirth\"]");
     By date1 = By.xpath("//*[@id=\"radix-_r_h_\"]/div/div[3]/button[10]");
     By hobbie = By.xpath("//*[@id=\"hobby-sports\"]");
-    By picture = By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/main/div[2]/div/div/div[2]/form/div[7]/div/div/button");
+    /*By picture = By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/main/div[2]/div/div/div[2]/form/div[7]/div/div/button");*/
     By textboxLogin3 = By.xpath("//*[@id=\"currentAddress\"]");
     By state = By.xpath("//*[@id=\"state\"]");
     By city = By.xpath("//*[@id=\"city\"]");
@@ -54,12 +54,12 @@ public class PageLogin {
         WebElement driver = webDriver.findElement(hobbie);
         driver.click();
     }
-    public  void pictureHim(){
+    /*public  void pictureHim(){
         WebElement driver = webDriver.findElement(picture);
         driver.click();
         String path = new File("src/test/resources/image1.png").getAbsolutePath();
         driver.sendKeys(path);
-    }
+    }*/
     public void field3 (String text3){
         WebElement driver = webDriver.findElement(textboxLogin3);
         driver.sendKeys(text3);

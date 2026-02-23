@@ -46,7 +46,7 @@ public class Homework {
         Thread.sleep(2000);
         pageLogin.hobbieHim();
         Thread.sleep(1000);
-        pageLogin.pictureHim();
+        /*pageLogin.pictureHim();*/
         Thread.sleep(1000);
         pageLogin.field3("Улица ебаната тупого д.3");
         Thread.sleep(1500);
@@ -55,8 +55,6 @@ public class Homework {
         pageLogin.cityHim("Гей");
         Thread.sleep(2000);
         pageLogin.button();
-        System.out.println("Привет");
-        System.out.println("хэллоу");
     }
     @AfterEach
     void tearDown() {
